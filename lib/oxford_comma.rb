@@ -11,5 +11,6 @@ def oxford_comma(array)
       new_array.push(ele)
       count += 1 
     end 
+    return new_array
   end 
 end
