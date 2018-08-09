@@ -11,7 +11,7 @@ def oxford_comma(array)
       new_array.push(ele)
       count += 1 
     end 
-    oxford_string = new_array + new_array[-1] + " and"
-    return oxford_string
+    oxford_array = new_array + new_array[-1] + " and"
+    return oxford_array.join
   end 
 end
