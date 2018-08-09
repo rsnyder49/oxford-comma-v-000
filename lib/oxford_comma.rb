@@ -12,9 +12,7 @@ def oxford_comma(array)
       count += 1 
     end 
     oxford_array = new_array + " and".split
-    last = oxford_array.pop 
-    new = last + " and".split 
-    final = new.push(array[-1].split)
-    return final 
+    last = oxford_array + array[-1].split
+    return last  
   end 
 end
